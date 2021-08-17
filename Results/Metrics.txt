@@ -1,0 +1,44 @@
+Computational Analysis
+-----------------------
+->No. of parameters
+  -----------------
+  Two branch -   36336   + 114412928
+  Ours 	     - 1517571   +  23497424
+
+->Memory Usage(tentative)
+  -----------------------
+
+->Prediction time (Run time for single image)
+  -------------------------------------------
+  Consider run time of SR network seperately.
+
+->Variation of accuracy with SR
+  -----------------------------
+  Train with each possible SR(bicubic, CNN, no SR, Sparse encoding)
+
+->FlowChart
+  --------- 
+
+->Math Equations
+  --------------
+
+->Graph and table on Image Quality Metrics(PSNR, SSIM, MSE) of different SR networks(look at two branch graphs)
+  ----------------------------------------------------------------------------------
+
+->Train and determine accuracy for different resolutions
+  ------------------------------------------------------
+
+->Training - train_loss, val_loss, training time
+  ----------------------------------------------
+
+->Downsides or Upside of all the changes made
+  -------------------------------------------
+
+
+Future work
+-----------
+1) Refer edsr paper.
+2) Look into DSR.
+3) Read two branch paper.
+4) Read about CLPM, MDS, NMCF coupled mapping approaches.
+5) Extensive literature review (close to our context would be preferable).
