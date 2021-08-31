@@ -28,11 +28,32 @@ Computational Analysis
 ->Train and determine accuracy for different resolutions
   ------------------------------------------------------
 
-->Training - train_loss, val_loss, training time
+->Training - train_loss, val_loss, training time (235s x 45 epochs for 36x36 images, edsr) (16x16 images, 45 epochs x 55 seconds for bicubic)
   ----------------------------------------------
 
 ->Downsides or Upside of all the changes made
   -------------------------------------------
+1. VGG to Facenet
+	a. lesser parameters - Resource exhausted error overcome
+	b. better PCA - feature vectors more separated
+	c. vanishing or exploding gradients reduced due to inception resnet V1 architecture
+	d. lower input size (160x160) and smaller vector output(512 from 4096) svm training time, lower memory consumption, prediction time, training time, better low res input images
+2. Removal of SRnet
+	a. Training time, prediction time, simplifies the model (lesser memory)
+	b. conventional SR methods are designed for super-resolving higher-res images, bicubic performs better (conventional methods damage the image)
+3. Classification method to logistic regression
+	a. memory consumption reduced because no concept of database, classifier outputs the person's label directly
+	b. significantly improved accuracy
+	c. instant prediction time because not comparing for getting the minimum distance and comparing to threshold
+4. MTCNN
+	a. removal of background noise, better feature vectors => better result
+	b. increase of data generation time 
+5. Changed loss to MSE from RMSE
+
+
+->Assumption
+  ----------
+Camera placed to capture only the face (try running mtcnn on low-res)
 
 
 Future work
