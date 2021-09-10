@@ -1,0 +1,77 @@
+(36x36)
+
+FULL FACENET
+1. lr = adam default epochs = 30
+Epoch 30/40
+33/33 [==============================] - 220s 7s/step - loss: 0.0585 - root_mean_squared_error: 0.2419 - val_loss: 0.2283 - val_root_mean_squared_error: 0.4778
+
+Epoch 00030: saving model to ../twobranch_extension\fullfacenet_36,36unfreezed15_lr=0.001.30-0.23.h5
+
+2. lr = 0.0001 epochs = 10
+Epoch 10/40
+33/33 [==============================] - 219s 7s/step - loss: 0.0453 - root_mean_squared_error: 0.2128 - val_loss: 0.1958 - val_root_mean_squared_error: 0.4424
+
+Epoch 00010: saving model to ../twobranch_extension\fullfacenet_36,36unfreezed15_lr=0.0001.10-0.20.h5
+
+3. lr = 0.00001 epochs = 5
+Epoch 5/40
+33/33 [==============================] - 224s 7s/step - loss: 0.0423 - root_mean_squared_error: 0.2058 - val_loss: 0.1934 - val_root_mean_squared_error: 0.4397
+
+Epoch 00005: saving model to ../twobranch_extension\fullfacenet_36,36unfreezed15_lr=0.00001.05-0.19.h5
+
+
+(24x24)
+
+FULL FACENET
+1. lr = adam default epochs = 30
+Epoch 30/40
+33/33 [==============================] - 118s 4s/step - loss: 0.0588 - root_mean_squared_error: 0.2424 - val_loss: 0.2588 - val_root_mean_squared_error: 0.5087
+
+Epoch 00030: saving model to ../twobranch_extension\fullfacenet_24,24unfreezed15_lr=0.001.30-0.26.h5
+
+2. lr = 0.0001 epochs = 10
+Epoch 10/40
+33/33 [==============================] - 117s 4s/step - loss: 0.0456 - root_mean_squared_error: 0.2137 - val_loss: 0.2377 - val_root_mean_squared_error: 0.4875
+
+Epoch 00010: saving model to ../twobranch_extension\fullfacenet_24,24unfreezed15_lr=0.0001.10-0.24.h5
+
+3. lr = 0.00001 epochs = 5
+Epoch 5/40
+33/33 [==============================] - 117s 4s/step - loss: 0.0424 - root_mean_squared_error: 0.2060 - val_loss: 0.2355 - val_root_mean_squared_error: 0.4853
+
+Epoch 00005: saving model to ../twobranch_extension\fullfacenet_24,24unfreezed15_lr=0.00001.05-0.24.h5
+
+
+(12x12)
+FULL FACENET
+1. lr = adam default epochs = 30
+Epoch 30/40
+33/33 [==============================] - 109s 3s/step - loss: 0.0627 - root_mean_squared_error: 0.2503 - val_loss: 0.3848 - val_root_mean_squared_error: 0.6203
+
+Epoch 00030: saving model to ../twobranch_extension\fullfacenet_12,12unfreezed15_lr=0.001.30-0.38.h5
+
+2. lr = 0.0001 epochs = 15
+Epoch 15/40
+33/33 [==============================] - 105s 3s/step - loss: 0.0459 - root_mean_squared_error: 0.2142 - val_loss: 0.3721 - val_root_mean_squared_error: 0.6100
+
+Epoch 00015: saving model to ../twobranch_extension\fullfacenet_12,12unfreezed15_lr=0.0001.15-0.37.h5
+
+3. lr = 0.00001 epochs = 5
+Epoch 5/40
+33/33 [==============================] - 104s 3s/step - loss: 0.0426 - root_mean_squared_error: 0.2064 - val_loss: 0.3697 - val_root_mean_squared_error: 0.6081
+
+Epoch 00005: saving model to ../twobranch_extension\fullfacenet_12,12unfreezed15_lr=0.00001.05-0.37.h5
+
+
+(16x16)
+2. lr = 0.0001 epochs = 15
+Epoch 15/40
+33/33 [==============================] - 111s 3s/step - loss: 0.0455 - root_mean_squared_error: 0.2133 - val_loss: 0.3035 - val_root_mean_squared_error: 0.5509
+
+Epoch 00015: saving model to ../twobranch_extension\fullfacenet_16,16unfreezed15_lr=0.0001.15-0.30.h5
+
+3. lr = 0.00001 epochs = 5
+Epoch 5/40
+33/33 [==============================] - 114s 3s/step - loss: 0.0422 - root_mean_squared_error: 0.2054 - val_loss: 0.3015 - val_root_mean_squared_error: 0.5491
+
+Epoch 00005: saving model to ../twobranch_extension\fullfacenet_16,16unfreezed15_lr=0.00001.05-0.30.h5
