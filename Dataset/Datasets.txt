@@ -1,3 +1,0 @@
-1) https://www.kaggle.com/shanmukh05/vggface-using-tripletloss - celebs (bollywood)
-2) https://www.kaggle.com/hereisburak/pins-face-recognition (bad face images)
-3) https://data.mendeley.com/datasets/hsv83m5zbb/2 (digital kamera/original kamera)
