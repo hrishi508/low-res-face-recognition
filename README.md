@@ -241,6 +241,3 @@ A. Aitken, A. Tejani, J. Totz, Z. Wang et al., “Photo-realistic single
 image super-resolution using a generative adversarial network,” in
 Proceedings of the IEEE conference on computer vision and pattern
 recognition, 2017, pp. 4681–4690.
-
-## Dataset
-https://drive.google.com/drive/u/1/folders/1sf46i0vQTJlQ-UqRYZPYDCzjZ4_5Rfcq
