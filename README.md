@@ -161,14 +161,14 @@ obtain the predicted labels corresponding to the probe images.
 # Results
 ## PCA visualization before training the LRFECNN
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/68325029/132976863-0e76553b-3b76-441c-b181-95dbb3ce4bdd.png">
-</p>
-<p align="center"> Fig. 4  Visualization of feature vectors of HR face images from HRFECNN</p>  
-<hr style="border:2px solid gray"> </hr>
-<p align="center">
   <img src="https://user-images.githubusercontent.com/68325029/132976914-fb469f68-549d-4712-8611-219e5b40b433.png">
 </p>
-<p align="center"> Fig. 5  Visualization of feature vectors of LR face images from an untrained LRFECNN</p>
+<p align="center"> Fig. 4  Visualization of feature vectors of LR face images from an untrained LRFECNN</p>
+<hr style="border:2px solid gray"> </hr>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/68325029/132976863-0e76553b-3b76-441c-b181-95dbb3ce4bdd.png">
+</p>
+<p align="center"> Fig. 5  Visualization of feature vectors of HR face images from HRFECNN</p>  
 
 ## Training LRFECNN
 <p align="center">
